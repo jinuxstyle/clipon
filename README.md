@@ -3,12 +3,12 @@
 Clipon is a open source project for managing your clipboard history
 in a simple and efficient way.
 
-It's useful when you want to take notes from some interesting documents
-or web pages you are reading. But you might not want to do copy and paste
-frequently. Because the paste operation needs you switch to another app
-to do paste and then switch back, which is kind of a distraction. with
-Clipon, you just copy things when reading, and do paste in batch after
-reading.
+It's useful if you want to take notes more efficiently when reading
+documents or web pages. It trackes whatever you copied so that you
+don't have to switch to another app to do paste whenever you copied
+something useful. The paste operation is kind of a distraction when
+you want to focus on reading. With Clipon, you just copy things when
+reading, and do paste in batch after reading.
 
 It also helps remember what you have copied and you might later want to
 revisit some of them.
@@ -33,8 +33,11 @@ Install required packages first
     It can be installed automatically when installing the Clipon (see
     below). So it's not necessary to install it by youself.
 
-Then install Clipon
+Then install Clipon from pypi
 
+    $ pip install clipon
+
+or install from source code
 
     $ git clone https://github.com/jinuxstyle/clipon.git
     $ cd clipon
